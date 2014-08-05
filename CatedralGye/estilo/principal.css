@@ -1,0 +1,139 @@
+ 
+ html{
+ 
+ background-color:#ffffff;
+ 
+ }
+ 
+ 
+ 
+ .parrafo { 
+			color: red; 
+			font-size: 24px;
+			text-shadow: 5px 5px 5px #0000FF
+		
+		}
+		
+
+.header
+{
+    width:1250px;
+    margin-top:100px;
+    margin-left:5%;
+    border-color:#8ADBEB;
+    border: 3px outset;
+    height: 200px;
+    float:left;
+	margin-bottom:20px;
+	margin-right:40%;
+	padding-left:10px;
+}
+
+ 
+
+/*Menu */
+
+.top_menu ul
+
+{
+
+    list-style:none;
+
+    float:left;
+
+    border: none;
+
+    padding: 2%;
+
+    
+
+}
+
+ 
+
+.top_menu ul li{
+    
+	float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+    background: #ff812d;
+    padding:5px;
+    border-radius: 15%;
+}
+
+.top_menu ul li a{
+
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.top_menu ul li a:hover{
+    color: blue;
+}
+
+
+.noticias{
+
+width: 500px;
+text-align:left;
+position:center;
+margin-left:300px;
+
+}
+
+
+.fotos img{
+
+margin-left:50px;
+margin-bottom:50px;
+border: 3px outset;
+border-color:#ff812d;
+
+}
+
+.fotos{
+
+width:800px;
+
+}
+
+
+.parrafo_central{
+
+width: 500px;
+text-align:left;
+position:left;
+border: 3px outset;
+border-color:#ff812d;
+margin-left:10px;
+
+}
+
+.mapa{
+
+width: 700px;
+text-align:left;
+position:center;
+border: 3px outset;
+border-color:#ff812d;
+margin-left:500px;
+
+}
+
+
+.logo{
+position:absolute;
+margin-top:-60px;
+
+margin-left:-300px;
+
+}
+
+.titulo_principal{
+position:absolute;
+margin-left:30%;
+color:#ff612d;
+
+}
+
+
