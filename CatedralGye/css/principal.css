@@ -1,7 +1,7 @@
  
  html{
  
- background-color:#ffffff;
+ background-color:#ccccff;
  
  }
  
@@ -15,6 +15,8 @@
 		}
 		
 
+
+		/*
 .header
 {
     width:1250px;
@@ -31,8 +33,8 @@
 
  
 
-/*Menu */
-
+Menu */
+/*
 .top_menu ul
 
 {
@@ -71,7 +73,7 @@
     color: blue;
 }
 
-
+*/
 .noticias{
 
 width: 500px;
@@ -125,7 +127,7 @@ margin-left:500px;
 position:absolute;
 margin-top:-60px;
 
-margin-left:-300px;
+margin-left:700px;
 
 }
 
