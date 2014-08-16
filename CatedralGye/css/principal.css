@@ -83,7 +83,7 @@ margin-left:300px;
 
 }
 
-
+/*
 .fotos img{
 
 margin-left:50px;
@@ -98,7 +98,7 @@ border-color:#ff812d;
 width:800px;
 
 }
-
+*/
 
 .parrafo_central{
 
@@ -137,10 +137,12 @@ margin-left:30%;
 color:#ff612d;
 
 }
+/*
 img{
    width 120
    height 150
  }
+ 
 #containerEx5 {
 	
 	padding: 50px;
@@ -155,7 +157,7 @@ img{
 	margin: 25px;
 	opacity: 0.8;
 	border: 10px solid #eee;
-	
+*/	
 	/*Transition*/
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
