@@ -1,7 +1,7 @@
  
  html{
  
- background-color:#086A87;
+ background-color:#9FF;
  
  }
  
@@ -126,7 +126,7 @@ margin-left:500px;
 
 .logo{
 position:absolute;
-margin-top:-60px;
+margin-top:-40px;
 margin-left:700px;
 
 }
@@ -179,18 +179,18 @@ img{
 }
 
 @font-face {
-	font-family: "Mi-Fuente-Propia";
+	font-family: "mifuente1";
 	font-style: normal;
 	font-weight: normal;
-	src: local("?"), url("../fuentes/fuente2.woff") format("woff"), url("../fuentes/fuente2.ttf") format("truetype");
+	src: local("?"), url("../fuentes/fuente8.woff") format("woff"), url("../fuentes/fuente8.ttf") format("truetype");
 }
 
 .textolegible{
 margin: 30px 20px;
-font-family: Mi-Fuente-Propia,arial, helvetica;
+font-family: mifuente1,arial, helvetica;
 line-height: 18px;
-color:#ff612d;
-font-size: 50px;
+color:#000;
+font-size: 80px;
 }
 
 .box{
@@ -401,6 +401,7 @@ font-size: 50px;
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
+	border-radius:20px;
 }
 
 
@@ -423,6 +424,7 @@ font-size: 50px;
 .imgquienessomos{
 	width:200px;
 	height: 178px;
+	border-radius:20px;
 	
 }
 
@@ -550,4 +552,32 @@ margin-top:2px;
 	width:139px;
 	height:135px;
 	margin-top:50px;
+}
+
+@font-face {
+	font-family: "mifuente6";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../fuentes/fuente6.woff") format("woff"), url("../fuentes/fuente6.ttf") format("truetype");
+}
+
+.textomision{
+margin: 30px 20px;
+font-family: mifuente6, helvetica;
+line-height: 25px;
+color:#000;
+font-size: 25px;
+text-align:center
+
+}
+.parrafo_centralmision{
+
+width: 700px;
+text-align:center;
+position:left;
+border-color:;
+margin-left:360px;
+margin-top:15px;
+border-radius:20px;
+
 }
