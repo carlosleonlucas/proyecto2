@@ -1,6 +1,6 @@
 	
 	body {
-		background-color: #086A87;
+		background-color: #9FF;
 		color: #333;
 		font-family:"Lucida handwriting", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
 		font-size: 16px;
@@ -20,7 +20,7 @@
 		padding: 10px 10px 20px 10px;
 		width: 150px;
 		border: 1px solid #BFBFBF;
-		background-color: #6FF;
+		background-color: #39C;
 		z-index: 2;
 		font-size: 0.7em;
 		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
