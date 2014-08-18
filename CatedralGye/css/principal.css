@@ -6,6 +6,12 @@
  }
  
  
+ .contenedor{
+ width: 80%;
+ max-width:1000px;
+ margin:0 auto;
+ }
+ 
  
  .parrafo { 
 			color: red; 
@@ -30,12 +36,12 @@ margin-left:300px;
 
 .parrafo_centralmision{
 
-width: 700px;
+width: 70%;
 text-align:center;
 position:left;
 border: 6px outset;
 border-color:#33C;
-margin-left:400px;
+margin-left:200px;
 margin-top:100px;
 border-radius:20px;
 
@@ -101,7 +107,7 @@ margin: 30px 20px;
 font-family: mifuente1,arial, helvetica;
 line-height: 18px;
 color:#000;
-font-size: 80px;
+font-size: 50px;
 }
 
 .box{
@@ -351,7 +357,7 @@ margin: 30px 20px;
 font-family: mifuente2, helvetica;
 line-height: 25px;
 color:#030;
-font-size: 25px;
+font-size: 15px;
 text-align:center
 
 }
@@ -494,26 +500,25 @@ border-radius:20px;
 
 }
 .imgmision{
-width:500px;
-height:500px;
-margin-left:500px;
+width:250px;
+height:250px;
+margin-left:450px;
 margin-top:50px;
 border-radius:20px;
 }
 
 @font-face {
-	font-family: "mifuente6";
+	font-family: "mifuente7";
 	font-style: normal;
 	font-weight: normal;
 	src: local("?"), url("../fuentes/fuente9.woff") format("woff"), url("../fuentes/fuente9.ttf") format("truetype");
 }
 
 .textomapa{
-margin: 30px 20px;
-font-family: mifuente6, helvetica;
-line-height: 25px;
-color:#030;
-font-size: 30px;
-text-align:justify
-
+	margin: 30px 20px;
+	font-family: mifuente7, helvetica;
+	line-height: 25px;
+	color: #030;
+	font-size: 30px;
+	text-align: justify
 }
