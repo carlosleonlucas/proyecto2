@@ -108,6 +108,7 @@ font-family: mifuente1,arial, helvetica;
 line-height: 18px;
 color:#000;
 font-size: 50px;
+text-align:center
 }
 
 .box{
@@ -194,7 +195,7 @@ font-size: 50px;
 	color:rgb(153,153,153);
 	color:rgba(153,153,153,0);
 	text-shadow:0 0 5px #aaa;
-	text-align:left;
+	text-align:justify;
 	font-size:14px;
 
 	transition: text-shadow 1s ease 0.5s, color 1s ease 0.5s, outline 1s ease 0.5s;
