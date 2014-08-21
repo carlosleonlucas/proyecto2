@@ -15,7 +15,7 @@
 #fotosnosotros { width: 100%; }
 #objetivo { width: 100%; }
 #mapa { width: 100%; }
-
+#eventitos { width: 100%; }
 
 /* Laptop/Tablet (1024px) */
 @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
@@ -33,6 +33,7 @@
 	#fotosnosotros { width: 100%; }
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
+	#eventitos { width: 100%; }
 }
 
 /* Tablet Portrait (768px) */
@@ -51,6 +52,7 @@
 	#fotosnosotros { width: 100%; }
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
+	#eventitos { width: 100%; }
 }
 
 /* Phone Landscape (480px) */
@@ -69,6 +71,7 @@
 	#fotosnosotros { width: 100%; }
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
+	#eventitos { width: 100%; }
 }
 
 /* Phone Portrait (320px) */
@@ -87,6 +90,7 @@
 	#fotosnosotros { width: 100%; }
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
+	#eventitos { width: 100%; }
 }
  html{
  background:#3CF
