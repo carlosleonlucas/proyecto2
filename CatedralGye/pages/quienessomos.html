@@ -7,30 +7,19 @@
 	<link rel="stylesheet" href="../css/principal.css" type="text/css" media="screen"> 
 	<link rel="stylesheet" href="../css/style.css" type="text/css"> 
 	<link rel="shortcut icon" href="../images/icono.ico" />
-		
-
-    <style type="text/css">
-        .parrafo { 
-			color: GREEN;
-			text-shadow: 5px 5px 5px #1C0000;
-			font-size: 24px;
-		}
-    </style>
-
 
 		
 </head> 
-<body> 
-<!-- Menu principal -->
-		<H1 class="textolegible">CATEDRAL SANTIAGO DE GUAYAQUIL</H1>
-        
 
-		<header class="cabecera"> 
-			
-            <nav class="top_menu"> 
-			<img src="../images/logo_catedral.png"  height="250" class="logo" alt=""> 
-
-			<ul id="css3menu1" class="topmenu">
+<body>
+        <div id='root'>
+        
+            <div class='box' id='titulo'>
+            <H1 class="textolegible">CATEDRAL SANTIAGO DE GUAYAQUIL</H1>
+            
+                <div class='box' id='menu'>
+                <nav class="top_menu">
+                <ul id="css3menu1" class="topmenu">
 				<li class="topmenu"><a href="../index.html" style="height:24px;line-height:24px;"><img src="../images/inicio.png" alt="">Inicio</a></li>
 				
 				<li class="toproot"><a  style="height:24px;line-height:24px;"><span><img src="../images/nosotros.png" alt="">Nosotros</span></a>
@@ -51,11 +40,16 @@
 			</ul>
 
             </nav> 
-        </header> 
-
-
-<!-- Cuerpo de la pagina --> 
-		<ul class="contnedor caption">
+                </div>
+                
+                
+                <div class='box' id='logotipo'>
+                <img src="../images/logo_catedral.png"  height="250" class="logo" alt=""> 
+                </div>
+                
+                
+                <div class='box' id='fotosnosotros'>
+                <ul class="contnedor caption">
             <li>
 					<figure>
 						<div><img class="imgquienessomos" src="../images/carlosleon.jpg" alt="CarlosLeon"></div>
@@ -82,13 +76,14 @@
 					</figure>
 				</li>
             </ul>
-
-		
-		
-		<section class="parrafo_centralquienessomos"><h2>Somos</h2>
+                </div>
+                
+                
+                <div class='box' id='objetivo'>
+       
 			
 			<p class="textomision" >
-				Un grupo de jovenes que busca impulsar el catolicismo por medio de un sitio web.
+				Somos un grupo de jovenes que busca impulsar el catolicismo por medio de un sitio web.
                 Mostrar la información basada en los acontecimientos que ocurren día a día en el ámbito                católico para la sociedad.
                  
 			</p>
@@ -97,9 +92,12 @@
             </p>
 			
 			
-		
-		</section> 
-</body> 
+	
+                
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
 
 

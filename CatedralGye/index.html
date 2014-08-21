@@ -11,16 +11,15 @@
 
 <!-- Menu principal -->
 
-<body > 
-		<H1 class="textolegible">CATEDRAL SANTIAGO DE GUAYAQUIL</H1>
-        
-
-		<header class="cabecera"> 
-			
-            <nav class="top_menu"> 
-			<img src="images/logo_catedral.png"  height="250" class="logo" alt=""> 
-
-			<ul id="css3menu1" class="topmenu">
+ <body>
+        <div id='root'>
+            <div class='box' id='titulo'>
+            
+            <H1 class="textolegible">CATEDRAL SANTIAGO DE GUAYAQUIL</H1>
+            
+                <div class='box' id='menu'>
+                <nav class="top_menu">
+                <ul id="css3menu1" class="topmenu">
 				<li class="topmenu"><a href="#" style="height:24px;line-height:24px;"><img src="images/inicio.png" alt="">Inicio</a></li>
 				
 				<li class="toproot"><a  style="height:24px;line-height:24px;"><span><img src="images/nosotros.png" alt="">Nosotros</span></a>
@@ -41,15 +40,18 @@
 			</ul>
 
             </nav> 
-        </header> 
+                
+                </div>
+                
+                <div class='box' id='logotipo'>
+                <img src="images/logo_catedral.png"  height="250" class="logo" alt="">
+                </div>
+                
+                
+                <div class='box' id='parte1'>
+                <a id="arriba"></a> <!-- Ancla -->
 
-
-
-<!-- Cuerpo de la pagina --> 
-<div class="contenedor">	
-		<a id="arriba"></a> <!-- Ancla -->
-
-		<section class="noticias">
+		
 		
 
      <div class="box box-1">
@@ -73,10 +75,11 @@
 			</p>
 		</div>
 	</div>
-    
-    
-    
-    <div class="box box-1">
+ 
+                </div>
+                
+                <div class='box' id='parte2'>
+                 <div class="box box-1">
 		<h3>MONS. RENÉ COBA, NOMBRADO COMO NUEVO OBISPO MILITAR</h3>
 		<div class="image">
 			<img src="images/mons.jpg" alt="papa2">
@@ -122,10 +125,13 @@
 			</p>
 		
 		</div>
-	</div>
-		<a href="index.html">Ir al inicio</a>
-		</section>
-</div>
-</body> 
+                
+                    <div class='box' id='linea'>
+                    <a href="index.html">Ir al inicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
 
