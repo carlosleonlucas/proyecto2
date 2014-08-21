@@ -16,6 +16,8 @@
 #objetivo { width: 100%; }
 #mapa { width: 100%; }
 #eventitos { width: 100%; }
+#formulario { width: 100%; }
+#enlaces { width: 100%; }
 
 /* Laptop/Tablet (1024px) */
 @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
@@ -34,6 +36,8 @@
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
 	#eventitos { width: 100%; }
+	#formulario { width: 100%; }
+	#enlaces { width: 100%; }
 }
 
 /* Tablet Portrait (768px) */
@@ -53,6 +57,8 @@
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
 	#eventitos { width: 100%; }
+	#formulario { width: 100%; }
+	#enlaces { width: 100%; }
 }
 
 /* Phone Landscape (480px) */
@@ -72,6 +78,8 @@
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
 	#eventitos { width: 100%; }
+	#formulario { width: 100%; }
+	#enlaces { width: 100%; }
 }
 
 /* Phone Portrait (320px) */
@@ -91,6 +99,8 @@
 	#objetivo { width: 100%; }
 	#mapa { width: 100%; }
 	#eventitos { width: 100%; }
+	#formulario { width: 100%; }
+	#enlaces { width: 100%; }
 }
  html{
  background:#3CF
@@ -122,12 +132,11 @@ margin-left:300px;
 
 .parrafo_centralmision{
 
-width: 70%;
+width: 60%;
 text-align:center;
-position:left;
 border: 6px outset;
 border-color:#33C;
-margin-left:200px;
+margin-left:120px;
 margin-top:100px;
 border-radius:20px;
 
@@ -150,7 +159,7 @@ border-radius:15px;
 .logo{
 position:absolute;
 alignment-adjust:central;
-margin-top:-80px;
+margin-top:-40px;
 margin-left:-50px;
 
 }
@@ -169,7 +178,7 @@ color:#ff612d;
 	
 	/*Reflection*/
 	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
-}
+
 #ex5 img:hover {  
    opacity: 1;
    
@@ -186,7 +195,7 @@ color:#ff612d;
 	font-family: "mifuente1";
 	font-style: normal;
 	font-weight: normal;
-	src: local("?"), url("../fuentes/fuente10.woff") format("woff"), url("../fuentes/fuente10.ttf") format("truetype");
+	src: local("?"), url("../fuentes/fuente13.woff") format("woff"), url("../fuentes/fuente13.ttf") format("truetype");
 }
 
 .textolegible{
@@ -194,7 +203,7 @@ margin: 30px 20px;
 font-family: mifuente1,arial, helvetica;
 line-height: 80px;
 color:#000;
-font-size: 50px;
+font-size: 80px;
 text-align:center
 }
 
@@ -202,7 +211,7 @@ text-align:center
 .imgquienessomos{
 	width:200px;
 	height: 178px;
-	border-radius:20px;
+	border-radius:20px; 
 	
 }
 
@@ -307,27 +316,15 @@ text-align:justify
 
 width: 70%;
 text-align:center;
-position:left;
 border: 6px outset;
 border-color:;
-margin-left:100px;
-margin-top:50px;
+margin-left:80px;
+margin-top:100px;
 border-radius:20px;
 alignment-adjust:central;
 
 }
-.contactenos{
 
-width: 600px;
-text-align:center;
-position:left;
-border: 6px outset;
-border-radius:20px;
-border-color:#03C;
-margin-left:200px;
-margin-top:5px;
-
-}
 .imgcont{
 	width:139px;
 	height:135px;
@@ -342,7 +339,7 @@ margin-top:5px;
 }
 
 .textomision{
-margin: 30px 20px;
+margin: 30px 200px;
 font-family: mifuente6, helvetica;
 line-height: 25px;
 color:#000;
@@ -352,19 +349,18 @@ text-align:center
 }
 .parrafo_centralquienessomos{
 
-width: 700px;
+width: 70%;
 text-align:center;
-position:left;
-border-color:;
-margin-left:360px;
+border-color:#FC9;
+margin-left:30px;
 margin-top:15px;
 border-radius:20px;
 
 }
 .imgmision{
-width:250px;
-height:250px;
-margin-left:450px;
+width:300px;
+height:300px;
+margin-left:330px;
 margin-top:50px;
 border-radius:20px;
 }
@@ -405,10 +401,9 @@ margin-left:250px;
 margin-left:250px;
 }
 .contnedor {
-	padding: 20px 20px 100px 20px;
+	padding: 20px 250px 100px 20px;
 	max-width: 1200px;
 	margin: 0 auto;
-	list-style: none;
 	text-align: center;
 }
 
@@ -532,4 +527,52 @@ margin-left:250px;
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+@font-face {
+	font-family: "mifuente6";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../fuentes/fuente2.woff") format("woff"), url("../fuentes/fuente2.ttf") format("truetype");
+}
+
+.textoindex{
+margin: 30px 20px;
+font-family: mifuente6, helvetica;
+line-height:40px;
+color:#000;
+font-size: 25px;
+text-align:left;
+
+}
+.image{
+width:30%;
+height:30%;
+alignment-adjust:central;
+border-radius:20px;
+margin-left:20%;	
+}
+.image2{
+width:30%;
+height:30%;
+alignment-adjust:central;
+border-radius:20px;
+margin-left:20%;
+}
+
+@font-face {
+	font-family: "mifuente6";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../fuentes/fuente3.woff") format("woff"), url("../fuentes/fuente3.ttf") format("truetype");
+}
+
+.textoindexparrafo{
+margin: 30px 100px;
+font-family: mifuente6, helvetica;
+line-height:20px;
+color:#000;
+font-size: 20px;
+text-align:justify;
+
 }
